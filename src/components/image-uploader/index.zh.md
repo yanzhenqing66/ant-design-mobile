@@ -25,8 +25,10 @@
 | onDelete      | 删除已上传成功的图片时触发，如果返回 `false` 表示阻止删除，支持返回 `Promise` | `(item: ImageUploadItem) => boolean \| Promise<boolean> \| void`       | -         |
 | children      | 自定义上传按钮                                                                | `ReactNode`                                                            | -         |
 | preview       | 是否支持预览                                                                  | `boolean`                                                              | `true`    |
-| showFailed    | 是否展示上传失败状态下的图片                                                  | `boolean`                                                              | `true`    |
+| showFailed    | 是否展示上传失败状态下的图片                                                  | `boolean`     
+| `true`    |
 
+| upload loading status |
 ### ImageUploadItem
 
 | 属性         | 说明                                     | 类型               | 默认值   |
